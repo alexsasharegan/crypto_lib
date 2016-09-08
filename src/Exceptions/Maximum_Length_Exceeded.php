@@ -14,7 +14,7 @@ class Maximum_Length_Exceeded extends \Exception implements \JsonSerializable {
   }
 
   public function jsonSerialize() {
-    return [ 'message' => $this->message, 'query' => $this->query, ];
+    return [ 'message' => $this->message ];
   }
 
 }
