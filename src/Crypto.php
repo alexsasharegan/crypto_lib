@@ -1,7 +1,7 @@
 <?php
 
 namespace Crypto;
-use Crypto\Exceptions\MaximumLengthExceeded;
+use Crypto\Exceptions\Maximum_Length_Exceeded;
 
 class Crypto {
 
